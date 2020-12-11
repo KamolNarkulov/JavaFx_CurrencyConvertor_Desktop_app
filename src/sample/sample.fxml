@@ -20,7 +20,7 @@
             <tabs>
                 <Tab text="CONVERTOR">
                     <content>
-                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-image: D:\TestWithJavaFx\src\images\bg.jpg;">
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="419.0" prefWidth="600.0">
                             <children>
                                 <GridPane layoutX="14.0" layoutY="8.0" prefHeight="151.0" prefWidth="314.0">
                                     <columnConstraints>
