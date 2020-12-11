@@ -197,14 +197,8 @@ public class Controller implements Initializable {
     }
 
     public String checkPosNeg(String diff, TextField diffColor){
-        Double diffDouble = Double.parseDouble(diff);
-        if (diffDouble>0){
-            diff = "+" + diff;
-            diffColor.setStyle("-fx-text-inner-color: blue;");
-        }else {
-            diff = "-"+diff;
-            diffColor.setStyle("-fx-text-inner-color: red;");
-        }
+            diff = "";
+            diffColor.setStyle("-fx-text-inner-color: #480461;");
         return diff;
     }
 }
