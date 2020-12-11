@@ -130,7 +130,7 @@ public class Controller implements Initializable {
                     double RUB = (USD * rateUSD) / rateRUB;
                     rub_field.setText(RUB + "");
 
-                    diffdateUZS.setText(checkPosNeg(diffUZS,diffdateUZS) + " date: " + dateUZS);
+                    diffdateUZS.setText("NO DATE");
                     diffdateEUR.setText(checkPosNeg(diffEUR,diffdateEUR) + " date: " + dateEUR);
                     diffdateRUB.setText(checkPosNeg(diffRUB,diffdateRUB) + " date: " + dateRUB);
                 } else if (!eur_field.getText().equals("")) {
@@ -149,7 +149,7 @@ public class Controller implements Initializable {
                     rub_field.setText(RUB + "");
 
                     diffdateUSD.setText(checkPosNeg(diffUSD,diffdateUSD) + " date: " + dateUSD);
-                    diffdateUZS.setText(checkPosNeg(diffUZS,diffdateUZS) + " date: " + dateUZS);
+                    diffdateUZS.setText("NO DATE");
                     diffdateRUB.setText(checkPosNeg(diffRUB,diffdateRUB) + " date: " + dateRUB);
                 } else if (!rub_field.getText().equals("")) {
                     rub_field.setStyle("-fx-text-inner-color: blue;");
@@ -168,7 +168,7 @@ public class Controller implements Initializable {
 
                     diffdateUSD.setText(checkPosNeg(diffUSD,diffdateUSD) + " date: " + dateUSD);
                     diffdateEUR.setText(checkPosNeg(diffEUR,diffdateEUR) + " date: " + dateEUR);
-                    diffdateUZS.setText(checkPosNeg(diffUZS,diffdateUZS) + " date: " + dateUZS);
+                    diffdateUZS.setText("NO DATE");
                 }
             } catch (MalformedURLException e) {
                 e.printStackTrace();
